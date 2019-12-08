@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
            val user = editUser.text.toString()
            val pass = editPass.text.toString()
 
-            if (user == "admin" && pass=="admin"){
+            if (user == "user" && pass=="admin"){
                Toast.makeText(this,"Login Sukses",Toast.LENGTH_SHORT).show()
 
             }else  {
